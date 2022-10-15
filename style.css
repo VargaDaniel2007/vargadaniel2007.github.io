@@ -1,0 +1,32 @@
+.body-backgroundcolor-margin{
+    background-color: beige;
+    margin-right: 30px;
+}
+
+.margin-after-image{
+    margin-top: 200px;
+}
+
+.image-width-height{
+    width: 400px;
+    height: 200px;
+}
+
+.image-float-marginright{
+    float: left;
+    margin-right: 20px;
+}
+
+.operator-image-width-height{
+    width: 400px;
+    height: 220px;
+}
+
+#fuze-image-width-height{
+    width: 650px; 
+    height: 350px;
+}
+
+ul{
+    list-style: square;
+}
