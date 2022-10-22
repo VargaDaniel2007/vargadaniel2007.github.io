@@ -30,3 +30,32 @@
 ul{
     list-style: square;
 }
+
+#operatorok-hr-top-margin{
+    margin-top: 215px;
+}
+
+.sas-underline{
+    text-decoration: underline;
+}
+
+table{
+    border-collapse: collapse;
+}
+
+td, th{
+    border: 1px solid black;
+
+}
+
+.tablazat .focim{
+    background-color: greenyellow;
+}
+
+th{
+    background-color: aqua;
+}
+
+.tablazat #tablazat-no-bgc{
+    background-color: beige;
+}
