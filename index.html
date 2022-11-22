@@ -9,11 +9,43 @@
 </head>
 <body class="body-backgroundcolor-margin">
 
+<!--HEADER-->
+   <div class="header">
+      <ul class="header-ul">
+
+          <li id="header-fooldal" class="header-baloldal">
+              <h2>
+                  Főoldal
+              </h2>
+          </li>
+
+          <li id="header-operatorok">
+              <h2>
+                  <a href="operatorok.html">Operátorok</a>
+              </h2>
+          </li>
+
+          <li id="header-pvejatekmod">
+              <h2>
+                  <a href="pvejatekmod.html">PvE játékmódok</a>
+              </h2>
+          </li>
+
+          <li id="header-tartalom">
+              <h2>
+                  <a href="tartalom.html">Tartalom</a>
+              </h2>
+          </li>
+          
+      </ul>
+  </div>
+
+<!--CONTENT-->
     <h1 style="text-align: center;">Játék bemutató</h1>
     <h2>Tom Clancy's Rainbow Six Siege</h2>
    <img src="Képek, egyebek/r6smainimg.jpg" style="width: 265px; height: 120px;">
 
-<div>
+<div id="jatek-megjelenes-informacio">
    <h2>A játék megjelenése, alap információk</h2>
    <p>
         A 
@@ -31,7 +63,8 @@
 </div>
 
    <hr>
-<div>
+
+<div id="jatekmenet">
    <h2>A játékmenet, alap koncepciója</h2>
    <p>
         A játékban <span style="color: red;">10 ember</span> vesz rész <span style="color: rgb(0, 0, 255);">5-5 fős</span> csapatokra osztva. 
@@ -49,7 +82,7 @@
 
    <hr>
 
-<div>
+<div id="jatek-mechanika">
    <h2>Játék mechanikái röviden</h2>
    <p>
         Nagyon gyorsan átfuttok a játék legfontosabb mechanikáin. Első a <b>Drónozás</b> és <b>Felkészülési fázis</b> (Preparation Phase).
@@ -63,45 +96,45 @@
 
    <hr>
 
-<div>
+<div id="jatekmod-bemutatas">
    <h2>Játékmódok bemutatása</h2>
 
    <ul>
      <li>                                     <!--Lista kezdete-->
-   <h3>Bomb játékmód</h3>
-   <img src="Képek, egyebek/r6s_bombmode_upscaled.jpeg" class="image-width-height image-float-marginright">
-   <p>
-        A bomba játékmódban a <b>támadó csapatnak</b> a két bomba közül az egyikre egy hatástalanítót <i>Defuser</i>-t kell lehelyezniük és megvédeniük
-        ameddig az nem hatástalanítja a bombát.
-        A <b>védő csapatnak</b> a bombát kell megvédeni, hogyha a hatástalanító mégis lekerül akkor azt meg kell semmisíteni.
-        A hatástalanító letétele 7.5 másodperc amit a támadók a kör időkorlátján kívül is letehetnek ha időben elkezdik.
-        Ez után egy 45 másodperces visszaszámláló indul amin belül kell a védő csapatnak hatástalanítani a készüléket.
-        Szintén 7.5 másodperc a hatástalanítás viszont ők nem léphetik át az időkorlátot, ezért gyorsan kell cselekedni.
+         <h3 id="jatekmod-bomb">Bomb játékmód</h3>
+         <img src="Képek, egyebek/r6s_bombmode_upscaled.jpeg" class="image-width-height image-float-marginright">
+         <p>
+            A bomba játékmódban a <b>támadó csapatnak</b> a két bomba közül az egyikre egy hatástalanítót <i>Defuser</i>-t kell lehelyezniük és megvédeniük
+            ameddig az nem hatástalanítja a bombát.
+            A <b>védő csapatnak</b> a bombát kell megvédeni, hogyha a hatástalanító mégis lekerül akkor azt meg kell semmisíteni.
+            A hatástalanító letétele 7.5 másodperc amit a támadók a kör időkorlátján kívül is letehetnek ha időben elkezdik.
+            Ez után egy 45 másodperces visszaszámláló indul amin belül kell a védő csapatnak hatástalanítani a készüléket.
+            Szintén 7.5 másodperc a hatástalanítás viszont ők nem léphetik át az időkorlátot, ezért gyorsan kell cselekedni.
         <br>
         
-        Ez a játékmód a Rainbow Six Siege alap játékmódja mivel Rankedben és felső fokú meccsekben (E-sport) csak ez játszható, ezért ez a legoptimalizáltabb.
-   </p>
+            Ez a játékmód a Rainbow Six Siege alap játékmódja mivel Rankedben és felső fokú meccsekben (E-sport) csak ez játszható, ezért ez a legoptimalizáltabb.
+         </p>
      </li>
 
      <li>
-   <h3 class="margin-after-image">Secure Area játékmód</h3>
-   <img src="Képek, egyebek/r6s_securearea_upscaled.jpeg" class="image-width-height image-float-marginright">
-   <p>
-        A Terület biztosítása (ezentúl Secura Area-nak hívott) játékmód lényege hogy egy bizonyos szobában található egy biológialiag veszélyes konténer,
-        amit a védőknek meg kell védeniük, még a támadóknak elfoglalni. 4 perces időkorlátja van a támadó csapatnak hogy beérkezzen a Secure Area-ra.
-        Ha az idő lejárta előtt belépnek, de közben le jár az idő holtverseny alakul ki, hogy ki iktatja ki hamarabb a másikat és foglalja el a pontot.
-        A pont elfoglalásához 10 egymásutáni másodperc kell amit nem szakít meg egyik védő se.
-   </p>
+         <h3 class="margin-after-image" id="jatekmod-secure-area">Secure Area játékmód</h3>
+         <img src="Képek, egyebek/r6s_securearea_upscaled.jpeg" class="image-width-height image-float-marginright">
+         <p>
+            A Terület biztosítása (ezentúl Secura Area-nak hívott) játékmód lényege hogy egy bizonyos szobában található egy biológialiag veszélyes konténer,
+            amit a védőknek meg kell védeniük, még a támadóknak elfoglalni. 4 perces időkorlátja van a támadó csapatnak hogy beérkezzen a Secure Area-ra.
+            Ha az idő lejárta előtt belépnek, de közben le jár az idő holtverseny alakul ki, hogy ki iktatja ki hamarabb a másikat és foglalja el a pontot.
+            A pont elfoglalásához 10 egymásutáni másodperc kell amit nem szakít meg egyik védő se.
+         </p>
      </li>
 
      <li>
-   <h3 class="margin-after-image"> Túsz játékmód</h3>
-   <img src="Képek, egyebek/r6s_hostagemode_upscaled.jpeg" class="image-width-height image-float-marginright">
-   <p>
-        Legutolsó PvP játékmódunk a Túsz (Hostage) mód. A támadó csapat célja, hogy megtalálja a túszt és kimenekítse az alapból megadott pontok egyikére.
-        A védő csapat, pedig ebben akadályozza meg őket. A túsz sebezhető mindkét csapat számára ezért óvatosnak kell lenni, ha a túsz mégis lövést kap a kereszttűzben
-        és lesérül akkor az éríntett csapatnak fel kell "<i>élesztenie</i>" ebben az ellenkező csapat megállíthatja őket, így veszíthetik a kört.
-   </p>
+         <h3 class="margin-after-image" id="jatekmod-hostage"> Hostage játékmód</h3>
+         <img src="Képek, egyebek/r6s_hostagemode_upscaled.jpeg" class="image-width-height image-float-marginright">
+         <p>
+            Legutolsó PvP játékmódunk a Túsz (Hostage) mód. A támadó csapat célja, hogy megtalálja a túszt és kimenekítse az alapból megadott pontok egyikére.
+            A védő csapat, pedig ebben akadályozza meg őket. A túsz sebezhető mindkét csapat számára ezért óvatosnak kell lenni, ha a túsz mégis lövést kap a kereszttűzben
+            és lesérül akkor az éríntett csapatnak fel kell "<i>élesztenie</i>" ebben az ellenkező csapat megállíthatja őket, így veszíthetik a kört.
+         </p>
      </li>
    </ul>                                     <!--Lista vége-->
 

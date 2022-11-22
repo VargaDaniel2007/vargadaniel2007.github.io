@@ -59,3 +59,59 @@ th{
 .tablazat #tablazat-no-bgc{
     background-color: beige;
 }
+
+.header{
+    background-color: rgb(77, 77, 60);
+    color: white;
+    width: 1920px;
+    height: 55px;
+    margin-left: -8px;
+    margin-top: -20px;
+    padding: 5px 0px;
+}
+
+.header-baloldal{
+    text-align: start;
+    float: left;
+    width: 100px;
+    padding-left: 20px;
+}
+
+.header-jobboldal{
+    text-align: end;
+    float:right;
+    width: 100px;
+    padding-right: 20px;
+}
+
+.header a{
+    color: burlywood;
+}
+.header a:visited{
+    color: burlywood;
+}
+
+.header li{
+    color: white;
+    text-decoration: underline;
+}
+
+.header-ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+
+    overflow: hidden;
+    list-style: none;
+}
+
+#header-fooldal, #header-operatorok, #header-pvejatekmod{
+    float: left;
+    padding-right: 425px;
+}
+
+#header-tartalom{
+    padding-right: 65px;
+    float: right;
+}
